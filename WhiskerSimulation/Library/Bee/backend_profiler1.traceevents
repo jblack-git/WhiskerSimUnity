@@ -1,0 +1,557 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1718256956785401, "dur":824, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256956786228, "dur":169, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1718256956786408, "dur":24, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1718256956786433, "dur":327, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1718256956786776, "dur":407, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256956787183, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373586, "dur":193, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373779, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373796, "dur":28, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373824, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373830, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373832, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373837, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373838, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373842, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373843, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373847, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373848, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373852, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373853, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373857, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373858, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373862, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373863, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373866, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373867, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373872, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373873, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373878, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373879, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373883, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373884, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373888, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373889, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373893, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373894, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373898, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373899, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373904, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373913, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957373924, "dur":5039, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1718256956787284, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718256956787284, "dur":1969, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718256956789257, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1718256956789291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718256956791004, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1718256956793208, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718256956793218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1718256956793221, "dur":580318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1718256957373560, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1718256957373561, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956787714, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956787714, "dur":1580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956789295, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1718256956789366, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956791921, "dur":3390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1718256956795336, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956795364, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956795470, "dur":1610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956797096, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956797111, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956797116, "dur":1631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956798769, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956798790, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956798795, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956800847, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956800862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956800867, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956803032, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956803046, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956803052, "dur":2098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956805164, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956805177, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956805182, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956806730, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956806867, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956806872, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956808715, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956808727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956808732, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956810788, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956810807, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956810812, "dur":1828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956812659, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956812677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956812683, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1718256956814242, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1718256956814258, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956814262, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1718256956815607, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1718256956815625, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1718256956815632, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1718256956817252, "dur":556346, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956787135, "dur":67, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956787202, "dur":2047, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956789257, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1718256956789258, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956789279, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1718256956789283, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956789776, "dur":2962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/app.info" }}
+,{ "pid":12345, "tid":3, "ts":1718256956792740, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1718256956792760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956792779, "dur":2823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1718256956795637, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956795665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956795669, "dur":2605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956798302, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956798319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956798324, "dur":1985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956800327, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956800341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956800346, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956801900, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956801908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956801912, "dur":2005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956803929, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956803943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956803948, "dur":2032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956805995, "dur":465, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956806463, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956806468, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956808150, "dur":171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956808336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956808342, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956809873, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956809888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956809925, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956811497, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956811513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956811518, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956812971, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956812991, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956812996, "dur":897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Accessibility.dll" }}
+,{ "pid":12345, "tid":3, "ts":1718256956813908, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1718256956813925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956813930, "dur":1181, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1718256956815124, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1718256956815139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1718256956815144, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1718256956816956, "dur":556627, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718256956787914, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718256956787915, "dur":1341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718256956789257, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1718256956789294, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718256956790812, "dur":2754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1718256956793577, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1718256956793605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1718256956794471, "dur":519472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1718256957313961, "dur":59625, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956787247, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956787248, "dur":2051, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956789299, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1718256956789342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956792298, "dur":3073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1718256956795388, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956795406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956795555, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956797878, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956798172, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956798177, "dur":2209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956800401, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956800426, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956800431, "dur":1910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956802355, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956802382, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956802387, "dur":2311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956804709, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956804718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956804722, "dur":1797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956806534, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956806683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956806688, "dur":1808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956808510, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956808525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956808530, "dur":6001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Windows.Forms.dll" }}
+,{ "pid":12345, "tid":5, "ts":1718256956814548, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1718256956814690, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956814694, "dur":968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":5, "ts":1718256956815682, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1718256956815862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1718256956815866, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1718256956817197, "dur":556401, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956787381, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956787381, "dur":1916, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956789297, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1718256956789323, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956792527, "dur":2937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1718256956795486, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956795505, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956795510, "dur":1466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956796991, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956797006, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956797011, "dur":1716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956798741, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956798754, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956798758, "dur":1519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956800292, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956800306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956800311, "dur":1615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956801939, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956801951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956801956, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956803990, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956804003, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956804007, "dur":2151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956806171, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956806349, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956806354, "dur":1772, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956808140, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956808301, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956808306, "dur":1524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956809848, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956809862, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956809867, "dur":1802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956811684, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956811701, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956811707, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1718256956814185, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1718256956814199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1718256956814203, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":6, "ts":1718256956816290, "dur":557293, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956787609, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956787609, "dur":1662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956789271, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1718256956789303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956790632, "dur":2914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1718256956793557, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation.exe" }}
+,{ "pid":12345, "tid":7, "ts":1718256956793957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956793960, "dur":1918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation.exe" }}
+,{ "pid":12345, "tid":7, "ts":1718256956795899, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956795944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956795950, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956798161, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956798174, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956798179, "dur":1904, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956800100, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956800114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956800120, "dur":1660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956801793, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956801806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956801812, "dur":1765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956803592, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956803605, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956803609, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956805639, "dur":294, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956805936, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956805940, "dur":1512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956807467, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956807606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956807612, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956808916, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956808930, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956808935, "dur":2752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Runtime.Serialization.Formatters.Soap.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956811701, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956811921, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956811927, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":7, "ts":1718256956815420, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1718256956815433, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1718256956815438, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1718256956816872, "dur":556710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956787494, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956787494, "dur":1802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956789296, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1718256956789399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956792087, "dur":3192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1718256956795298, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956795323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956795457, "dur":1976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956797448, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956797466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956797471, "dur":1520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956799003, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956799016, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956799020, "dur":1622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956800657, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956800669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956800674, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956802795, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956802808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956802813, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956804750, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956804760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956804765, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956806519, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956806679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956806684, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956808494, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956808507, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956808512, "dur":3556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956812082, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956812114, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956812120, "dur":1401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1718256956813535, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1718256956813683, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956814156, "dur":830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1718256956814998, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1718256956815012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1718256956815019, "dur":1988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1718256956817024, "dur":556557, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718256956787813, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718256956787813, "dur":1445, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718256956789258, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1718256956789299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718256956790622, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1718256956792960, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718256956792976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1718256956793848, "dur":537542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1718256957331413, "dur":42174, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956787704, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956787704, "dur":1549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956789257, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1718256956789305, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956790383, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1718256956792748, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1718256956792761, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956792809, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1718256956795537, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956795552, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956795557, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956797583, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956797604, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956797609, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956799031, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956799045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956799050, "dur":2400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956801467, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956801483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956801488, "dur":1916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956803417, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956803430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956803435, "dur":2803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956806252, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956806632, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956806637, "dur":1720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956808370, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956808383, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956808388, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956810336, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956810352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956810357, "dur":1764, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956812136, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956812151, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1718256956812156, "dur":4984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1718256956817157, "dur":556444, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956787845, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956787846, "dur":1450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956789296, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1718256956789330, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956791585, "dur":2443, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1718256956794041, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956794057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956794791, "dur":1513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956796320, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956796334, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956796339, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956798149, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956798167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956798173, "dur":1397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956799581, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956799590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956799603, "dur":1498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956801122, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956801136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956801141, "dur":2025, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956803176, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956803185, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956803189, "dur":2095, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956805299, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956805313, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956805332, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956806766, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956806900, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956806905, "dur":1905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956808824, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956808841, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956808846, "dur":2509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956811370, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Deployment.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956811384, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956811390, "dur":1557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Deployment.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956812965, "dur":577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956813545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956813552, "dur":1516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1718256956815082, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1718256956815102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1718256956815106, "dur":1706, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/level1" }}
+,{ "pid":12345, "tid":11, "ts":1718256956816832, "dur":556752, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956787969, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956787970, "dur":1285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956789257, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1718256956789305, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956790599, "dur":2318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1718256956792931, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956792949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956793828, "dur":2093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956795937, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956795953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956795959, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956797821, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956797834, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956797839, "dur":1451, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956799304, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956799319, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956799324, "dur":1599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956800937, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956800951, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956800956, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956802789, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956802804, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956802809, "dur":1818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956804641, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956804655, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956804660, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956806279, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956806418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956806423, "dur":1789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956808226, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956808353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956808359, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956810016, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956810048, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956810054, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956811683, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956811701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956811707, "dur":2934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1718256956814661, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1718256956814877, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1718256956814884, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":12, "ts":1718256956816973, "dur":556628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956788021, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956788021, "dur":1277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956789298, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1718256956789323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956791414, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1718256956794467, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956794481, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956794784, "dur":1439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956796237, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956796251, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956796256, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956798103, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956798132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956798139, "dur":1187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956799341, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956799358, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956799363, "dur":1564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956800937, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956800962, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956800967, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956802992, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956803004, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956803010, "dur":2514, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956805537, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956805677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956805683, "dur":1993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956807691, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956807813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956807817, "dur":1335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956809171, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956809182, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956809185, "dur":1732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956810946, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956810963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956810968, "dur":3355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":13, "ts":1718256956814338, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1718256956814350, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956814354, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1718256956815588, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1718256956815625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1718256956815631, "dur":1728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1718256956817371, "dur":556224, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956788102, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956788103, "dur":1194, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956789297, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1718256956789438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956792312, "dur":3083, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1718256956795411, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956795430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956795562, "dur":1813, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956797391, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956797405, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956797424, "dur":1491, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956798934, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956798977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956798983, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956800855, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956800868, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956800873, "dur":1893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956802792, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956802868, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956802873, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956804944, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956804957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956804963, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956806892, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956807085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956807089, "dur":1708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956808810, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956808840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956808847, "dur":2837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956811700, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956811716, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956811721, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":14, "ts":1718256956813691, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1718256956813798, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1718256956814094, "dur":3420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1718256956817524, "dur":556070, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956788272, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956788272, "dur":999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956789271, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1718256956789303, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956790769, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1718256956792904, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1718256956792919, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956792925, "dur":2606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":15, "ts":1718256956795545, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956795562, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956795566, "dur":2272, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956797852, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956797866, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956797871, "dur":2411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956800296, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956800310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956800316, "dur":2009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956802339, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956802351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956802356, "dur":2016, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956804383, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956804391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956804395, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956806021, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956806036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956806048, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956807450, "dur":135, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956807588, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956807593, "dur":1404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956809010, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956809023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956809027, "dur":2431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956811472, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956811489, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956811494, "dur":3350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1718256956814860, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1718256956814875, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1718256956814880, "dur":2731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/WhiskerSimulation_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1718256956817626, "dur":555966, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718256956788165, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718256956788166, "dur":1129, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718256956789295, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1718256956789320, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718256956791041, "dur":2198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1718256956793250, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1718256956793262, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1718256956793265, "dur":452295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/MrQueeges/Desktop/Thesis/FinalBuild_1_0/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":16, "ts":1718256957245585, "dur":128004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1718256957379726, "dur":1369, "ph":"X", "name": "ProfilerWriteOutput" }
+,

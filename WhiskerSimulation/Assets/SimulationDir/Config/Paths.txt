@@ -1,0 +1,4 @@
+step_file=
+blender_executable=
+python_path=
+freecad_path=

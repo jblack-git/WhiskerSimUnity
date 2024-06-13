@@ -1,0 +1,863 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.10f1 (1c7d0df0160b) revision 1867021'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32679 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2021.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/UnityGame/Pinball_Test
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51385
+Successfully changed project path to: D:/UnityGame/Pinball_Test
+D:/UnityGame/Pinball_Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 91.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.10f1 (1c7d0df0160b)
+[Subsystems] Discovering subsystems at path E:/Unity/2021.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityGame/Pinball_Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2080 SUPER (ID=0x1e81)
+    Vendor:   NVIDIA
+    VRAM:     7987 MB
+    Driver:   31.0.15.5222
+Initialize mono
+Mono path[0] = 'E:/Unity/2021.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2021.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2021.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2021.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: E:/Unity/2021.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002903 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 87.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.624 seconds
+Domain Reload Profiling:
+	ReloadAssembly (624ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (453ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (113ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (131ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005012 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityGame\Pinball_Test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityGame\Pinball_Test\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Domain Reload Profiling:
+	ReloadAssembly (893ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (700ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3454 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (113.5 KB). Loaded Objects now: 3909.
+Memory consumption went from 123.2 MB to 123.0 MB.
+Total: 2.595900 ms (FindLiveObjects: 0.266800 ms CreateObjectMapping: 0.204200 ms MarkObjects: 2.036700 ms  DeleteObjects: 0.087600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32369.677363 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_121.obj
+  artifactKey: Guid(c7bcec7ca8cf521419572a3ed5ee5511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_121.obj using Guid(c7bcec7ca8cf521419572a3ed5ee5511) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852942e5f06585ed6317b985816ca503') in 0.148087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_177.obj
+  artifactKey: Guid(4dc4f78dcf1a58346834b8b2652bdefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_177.obj using Guid(4dc4f78dcf1a58346834b8b2652bdefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae23bb28250f880f01eff488eadd12d') in 0.019197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_168.obj
+  artifactKey: Guid(47a31a3231fa81c4288884d794b108d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_168.obj using Guid(47a31a3231fa81c4288884d794b108d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f272872437ad007a97f41eda64b1e298') in 0.018369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_149.obj
+  artifactKey: Guid(b50ae84d9e47d534cb421bddb4228c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_149.obj using Guid(b50ae84d9e47d534cb421bddb4228c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72badb0c5e8dc2fa8ef540968c6a883c') in 0.016555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_137.obj
+  artifactKey: Guid(6ebef6a7c3b841843952b6c6d5ef2205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_137.obj using Guid(6ebef6a7c3b841843952b6c6d5ef2205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81eea13dfadc7f81b72d52c856875dcd') in 0.017680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_136.obj
+  artifactKey: Guid(f7a2dbdeb2abe794b83211bf4b50f3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_136.obj using Guid(f7a2dbdeb2abe794b83211bf4b50f3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e7b815e2e25b3f05a2e209b69b39a3') in 0.018014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_140.obj
+  artifactKey: Guid(46da4e60e0f2d3049b784af46f783094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_140.obj using Guid(46da4e60e0f2d3049b784af46f783094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af9121a47376f3c9a00aa9abb53b105') in 0.017801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_179.obj
+  artifactKey: Guid(cb4f247e96d0d93469a9bcb2e3303e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_179.obj using Guid(cb4f247e96d0d93469a9bcb2e3303e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f3c173e43bf24311e258400f2ee45f') in 0.017725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_153.obj
+  artifactKey: Guid(c26e4b1b48891b64c81d6d96b150f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_153.obj using Guid(c26e4b1b48891b64c81d6d96b150f960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd630d432b2b1b4d8b2af87f5aa0613b3') in 0.025384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_134.obj
+  artifactKey: Guid(f3c9d15ba65a51f4db749b1998072f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_134.obj using Guid(f3c9d15ba65a51f4db749b1998072f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '542adc4442dd2d9bbbe144480cbfefa8') in 0.017808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_230.obj
+  artifactKey: Guid(885981bf57d31d94ebbaebc48d8620f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_230.obj using Guid(885981bf57d31d94ebbaebc48d8620f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd8da12f2d819be09340e56bf0f3249') in 0.019290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_210.obj
+  artifactKey: Guid(4fdff9b5ff00874478b673e74cc5c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_210.obj using Guid(4fdff9b5ff00874478b673e74cc5c355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7b9afe41ca6ca46575e6d9cc664c8e') in 0.019982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_209.obj
+  artifactKey: Guid(b3fddef40806d9845a0dd5ba36b6df21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_209.obj using Guid(b3fddef40806d9845a0dd5ba36b6df21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5b52fdec9d1ad478e8d3d076c760562') in 0.018014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_202.obj
+  artifactKey: Guid(1a516ed476ff9f3428b23c38d03dc996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_202.obj using Guid(1a516ed476ff9f3428b23c38d03dc996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '227174ebcf4462b54ea0940830843ddf') in 0.017775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_238.obj
+  artifactKey: Guid(b92482dd24b27b04b9eca0fb5d197de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_238.obj using Guid(b92482dd24b27b04b9eca0fb5d197de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c5cc438bc4119eaea01e782e4e2b72') in 0.019914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_194.obj
+  artifactKey: Guid(d41a7ec5637390a448e02c9f4bac380a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_194.obj using Guid(d41a7ec5637390a448e02c9f4bac380a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8768e1f2222c6cece2e3f9e4ac16f50') in 0.019258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_248.obj
+  artifactKey: Guid(c73981c9cba667f4a92d339142188342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_248.obj using Guid(c73981c9cba667f4a92d339142188342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5c78747d6109aaa39dda9c214159bf') in 0.016876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_235.obj
+  artifactKey: Guid(417bd6a550c6f9446bc9a6899fccb573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_235.obj using Guid(417bd6a550c6f9446bc9a6899fccb573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6407ac8f4d69cec601bb1859e6d28049') in 0.017540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_260.obj
+  artifactKey: Guid(b0f7f82a9b0bcd742aea444392ddb4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_260.obj using Guid(b0f7f82a9b0bcd742aea444392ddb4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdbf3cd89e9aed299877579bd2e7d14e') in 0.018137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_257.obj
+  artifactKey: Guid(f494c87d0adaf414b993f2a17b8e3796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_257.obj using Guid(f494c87d0adaf414b993f2a17b8e3796) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37369b9908b86e34a54b97a9ab427ed7') in 0.016942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_255.obj
+  artifactKey: Guid(88680717d010e9d4fa8dbde8badc4f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_255.obj using Guid(88680717d010e9d4fa8dbde8badc4f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bda837d10cd7bc73c9d175a43c690a') in 0.017295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_220.obj
+  artifactKey: Guid(a799b43e3d5016343a93bed13670d610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_220.obj using Guid(a799b43e3d5016343a93bed13670d610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622b08c608183910ce31f86ac2a70f04') in 0.018699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_263.obj
+  artifactKey: Guid(8bf113ab62504d14a8fcd38eecdc60ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_263.obj using Guid(8bf113ab62504d14a8fcd38eecdc60ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b013ab2e8346ae423e775b0c360038') in 0.018545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_190.obj
+  artifactKey: Guid(9589fd4fee632f846b39d4e9f6d64c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_190.obj using Guid(9589fd4fee632f846b39d4e9f6d64c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a13a2c70a2ff5f7906e18d2bbaccc73') in 0.017794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_267.obj
+  artifactKey: Guid(24f5bc2cdab84cc4ea7841d13ed581c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_267.obj using Guid(24f5bc2cdab84cc4ea7841d13ed581c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc7ddc6b3331c422c7fb99fe127e768') in 0.017258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_331.obj
+  artifactKey: Guid(1d6c3c09709ff55418ebcca659100268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_331.obj using Guid(1d6c3c09709ff55418ebcca659100268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1e5b0947a5664c37b6b6f981cdf3c8') in 0.016430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_309.obj
+  artifactKey: Guid(06c91a169de564c4b82cb4b9f4e3e06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_309.obj using Guid(06c91a169de564c4b82cb4b9f4e3e06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf52a4fc96808a8ac1c2111c9f0a1243') in 0.016994 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_270.obj
+  artifactKey: Guid(04ebb36586f631141a9ecab886bdad9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_270.obj using Guid(04ebb36586f631141a9ecab886bdad9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17bae187cfe5c0f2241f888184f41b19') in 0.017667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_336.obj
+  artifactKey: Guid(786643209170f4f4aa1e4261519c3bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_336.obj using Guid(786643209170f4f4aa1e4261519c3bfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff063db2f46a32b8967a9978bacb384') in 0.017230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_288.obj
+  artifactKey: Guid(93f1bd17a6dcdfd4ca56b1913caab705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_288.obj using Guid(93f1bd17a6dcdfd4ca56b1913caab705) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b36c267c9dfb200aefe83b65abe2c269') in 0.016493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_284.obj
+  artifactKey: Guid(56548d33339b1d24e9593f49bf867101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_284.obj using Guid(56548d33339b1d24e9593f49bf867101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f12c5cae26def42456ceef1a5b7c8f') in 0.017887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_271.obj
+  artifactKey: Guid(7a6eda888d295b5459b3ed33343282a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_271.obj using Guid(7a6eda888d295b5459b3ed33343282a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '042a28f4a4e7b92f374d968d9bbf7b1b') in 0.016625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_305.obj
+  artifactKey: Guid(41bae8f8b9f40604db04f44481bbebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_305.obj using Guid(41bae8f8b9f40604db04f44481bbebd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3acb16cc6d284a0772a86848f9bf8a9') in 0.017093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_247.obj
+  artifactKey: Guid(910f3c89263c8c5458b3117ce373b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_247.obj using Guid(910f3c89263c8c5458b3117ce373b208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f1f6c4b1a421a609724c869f727dcc') in 0.018106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_325.obj
+  artifactKey: Guid(cdc066791e3cbe640ab4bcb2ac4d827b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_325.obj using Guid(cdc066791e3cbe640ab4bcb2ac4d827b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ad68226f1f747ef3e0607a43e5c56e') in 0.016668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_157.obj
+  artifactKey: Guid(6279c145b3033c9499bcca714954813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_157.obj using Guid(6279c145b3033c9499bcca714954813a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8dcf7260b9bd15d3ef301bca1d679d5') in 0.017792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_131.obj
+  artifactKey: Guid(bf5fc8f763c0f644386390c4be70a1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_131.obj using Guid(bf5fc8f763c0f644386390c4be70a1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52bfacccbb509d934a84e8ed8e8de636') in 0.018997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_192.obj
+  artifactKey: Guid(118cc4b1a93a3934a94720fb9b27664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_192.obj using Guid(118cc4b1a93a3934a94720fb9b27664b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff49b7101e5bec91d4dbb1f04a2fa2e') in 0.020399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_346.obj
+  artifactKey: Guid(c05291b3ddeaaa245b9b04b193497661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_346.obj using Guid(c05291b3ddeaaa245b9b04b193497661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12f16e92fc6de368df437154c31f2bb1') in 0.016764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_340.obj
+  artifactKey: Guid(e6f08c3b76b99ea4e97e9099e104db75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_340.obj using Guid(e6f08c3b76b99ea4e97e9099e104db75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831212759c2b89543ecd2038bc0465aa') in 0.018179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_348.obj
+  artifactKey: Guid(7fbbc1413edb0ca4daa3da244f68cbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_348.obj using Guid(7fbbc1413edb0ca4daa3da244f68cbf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9ba933f899a794dd2c4084601eaef26') in 0.018072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_162.obj
+  artifactKey: Guid(c2f2757a5ff9319418643e1f3940077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_162.obj using Guid(c2f2757a5ff9319418643e1f3940077c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4771d3b2ec77190cf4272e7b532d418d') in 0.017231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_173.obj
+  artifactKey: Guid(7577ecc31c514aa41ac3ae664b6746bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_173.obj using Guid(7577ecc31c514aa41ac3ae664b6746bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ddc83f34884cd902e1184367786fa94') in 0.019496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_147.obj
+  artifactKey: Guid(ab7d199f603914d408b3f5172791346b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_147.obj using Guid(ab7d199f603914d408b3f5172791346b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6be10e2512facf6c6af0749cb6d0a97') in 0.017875 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_154.obj
+  artifactKey: Guid(efc2509053d57cf4fb3619da28206d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_154.obj using Guid(efc2509053d57cf4fb3619da28206d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6939114525364c2e8ab771c90047ddb9') in 0.016977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_182.obj
+  artifactKey: Guid(e25f29a20d9c66648bfa7356da7f04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_182.obj using Guid(e25f29a20d9c66648bfa7356da7f04f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2861642c8de7e3083ea90b9dada6fb55') in 0.017861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_161.obj
+  artifactKey: Guid(c7d4ce39f999db3498320213bbccfb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_161.obj using Guid(c7d4ce39f999db3498320213bbccfb37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '740585da6fac74ad63e60dbb1492dff3') in 0.016183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_160.obj
+  artifactKey: Guid(aeb7fec69b54bdb42ac9cdec409b78c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_160.obj using Guid(aeb7fec69b54bdb42ac9cdec409b78c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b1669915bc6e809e5cb2d5871d19fe') in 0.016847 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_319.obj
+  artifactKey: Guid(71d661602b78ac34c9fe8dcabc6dbdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_319.obj using Guid(71d661602b78ac34c9fe8dcabc6dbdda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8fb0715f87d22795c9818f034b4fbe4') in 0.017285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_163.obj
+  artifactKey: Guid(030fb02c525747042979aadf409af5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_163.obj using Guid(030fb02c525747042979aadf409af5ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaf2bc3b0cdfb75203c0ec25c726fe7') in 0.016304 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_184.obj
+  artifactKey: Guid(502b2606326aadb49bf58f1298ae309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_184.obj using Guid(502b2606326aadb49bf58f1298ae309c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa977b9bf47b8b674ab2e381147f6512') in 0.018821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_126.obj
+  artifactKey: Guid(95542968af9d0cb4d9776292f636870b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_126.obj using Guid(95542968af9d0cb4d9776292f636870b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3459504e9c986f627725c29313608d') in 0.018524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_304.obj
+  artifactKey: Guid(1c43f53344bcc834880dbe9efeb707a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_304.obj using Guid(1c43f53344bcc834880dbe9efeb707a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '651bdcaf2f1c28b638d4350c1ba64628') in 0.016600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_237.obj
+  artifactKey: Guid(9e661e2b4ec4cbf40a3a6db0fb35f556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_237.obj using Guid(9e661e2b4ec4cbf40a3a6db0fb35f556) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6503f207fe7156a096b8a4ebaea836') in 0.019011 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_224.obj
+  artifactKey: Guid(979a028c58731fa449aa9b764e91326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_224.obj using Guid(979a028c58731fa449aa9b764e91326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b377fef806ea02022649e784bf4faf0') in 0.017688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_240.obj
+  artifactKey: Guid(75bd0a1f1566c1443904d9f2f09a75b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_240.obj using Guid(75bd0a1f1566c1443904d9f2f09a75b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1eeb4851672e9a48da59d6e39b285e') in 0.017247 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_NonMetalFaces.fbx
+  artifactKey: Guid(72e26545dda1a1245af94682c062a91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_NonMetalFaces.fbx using Guid(72e26545dda1a1245af94682c062a91a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8c6e82cc2b63fd9b43312ac419ffcc') in 0.018591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_249.obj
+  artifactKey: Guid(3d62f8d8cce07fc4cb67a6c6724db4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_249.obj using Guid(3d62f8d8cce07fc4cb67a6c6724db4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0e45eaa6db81f842e3b27e9ed48678') in 0.018467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_218.obj
+  artifactKey: Guid(1fd2edcede7fc954f86c7065e7effcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_218.obj using Guid(1fd2edcede7fc954f86c7065e7effcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e68544834422784775ef478b09897a2') in 0.017771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_243.obj
+  artifactKey: Guid(b27f8b9ab12456b4cbbf917092fb0979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_243.obj using Guid(b27f8b9ab12456b4cbbf917092fb0979) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6dda80408a0533b1e52f890cd7a288') in 0.017098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_226.obj
+  artifactKey: Guid(e4bc4fe617411b94cb877138ee6a03f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_226.obj using Guid(e4bc4fe617411b94cb877138ee6a03f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783909107ae275046774f84135a70944') in 0.017307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_135.obj
+  artifactKey: Guid(e82d92e9489006540a02687cf6b3ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_135.obj using Guid(e82d92e9489006540a02687cf6b3ce12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bc7928e11863fdb41e634f5756bb300') in 0.017161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_223.obj
+  artifactKey: Guid(35c04bd60b154544e848d1952515c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_223.obj using Guid(35c04bd60b154544e848d1952515c2bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cfe67b73f9137ceef23baeaaf8ab649') in 0.018799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_356.obj
+  artifactKey: Guid(a8661229716a4744a9ed31b0e3c811e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_356.obj using Guid(a8661229716a4744a9ed31b0e3c811e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65bb0b2476529ac5218949b90405c1ea') in 0.017154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_213.obj
+  artifactKey: Guid(8eb3fbc5d2164f14b842d3bec390fe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_213.obj using Guid(8eb3fbc5d2164f14b842d3bec390fe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653024af58ab6eace5abd930a1a5371b') in 0.020598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_282.obj
+  artifactKey: Guid(dd6eecb896096894e8b2e25237dbe704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_282.obj using Guid(dd6eecb896096894e8b2e25237dbe704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55dca3206470a0258d0f383718140db3') in 0.019022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_351.obj
+  artifactKey: Guid(95e7791fe8f732b4da99463a5af14370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_351.obj using Guid(95e7791fe8f732b4da99463a5af14370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f74657ade26ab5b86f94fb96d93b5aa') in 0.017816 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_175.obj
+  artifactKey: Guid(ab97e46187a25c74f98840ffc3620a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_175.obj using Guid(ab97e46187a25c74f98840ffc3620a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc97e959526d85b68fa51b680dbd48a8') in 0.019610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_155.obj
+  artifactKey: Guid(5e79108d30a623d4c81a52e6e2e37ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_155.obj using Guid(5e79108d30a623d4c81a52e6e2e37ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899139fc6b5e789a00ff822897e654b2') in 0.017735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_199.obj
+  artifactKey: Guid(7feddcb6f89ea034ab0886cceed916f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_199.obj using Guid(7feddcb6f89ea034ab0886cceed916f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26504b49b745002ed6588087109c4e5') in 0.017254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_315.obj
+  artifactKey: Guid(f7f6a6d75757fa14fb32e43b3e039cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_315.obj using Guid(f7f6a6d75757fa14fb32e43b3e039cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f502ca058f0af35086345464c6ad7b03') in 0.018202 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_321.obj
+  artifactKey: Guid(76a9ee51ac7df5a498aaabe0c8859c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_321.obj using Guid(76a9ee51ac7df5a498aaabe0c8859c72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca4e4a97300413ca17eb18cca0f089a') in 0.018785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_159.obj
+  artifactKey: Guid(95bd119aae8a054448dc596c2b7c4fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_159.obj using Guid(95bd119aae8a054448dc596c2b7c4fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a12c5f2fed18d4d61a04e616f8d965') in 0.019327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_344.obj
+  artifactKey: Guid(0953a58527a0d7f459d0cd4d89e1e916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_344.obj using Guid(0953a58527a0d7f459d0cd4d89e1e916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c505bb3d4fdde898fdf833063316abd') in 0.017766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_174.obj
+  artifactKey: Guid(70c27c452bbb01a4596edaefbae1bac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_174.obj using Guid(70c27c452bbb01a4596edaefbae1bac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca9944c58a3524c63e50f40b7828d03') in 0.016868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_317.obj
+  artifactKey: Guid(733751f88041c3a409bdcd32fb26e115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_317.obj using Guid(733751f88041c3a409bdcd32fb26e115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bb0ea2c7309d3b7f6b48f0222b954e') in 0.017328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_NonMetalFaces.obj
+  artifactKey: Guid(7c47b7c866ea21c4f8b1a081428ab063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_NonMetalFaces.obj using Guid(7c47b7c866ea21c4f8b1a081428ab063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745adf7aa59c4dde85881951c70d9969') in 0.019596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_133.obj
+  artifactKey: Guid(2e9ffd5458d2f234fae3ec6cb5ad420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_133.obj using Guid(2e9ffd5458d2f234fae3ec6cb5ad420d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f1716c877090cea32ae0a098f48a07') in 0.018285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_200.obj
+  artifactKey: Guid(167186dc57c69d246a69a0db6073bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_200.obj using Guid(167186dc57c69d246a69a0db6073bf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1788c89f21c7442913b38c187e374354') in 0.017949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_352.obj
+  artifactKey: Guid(b5df691b8b8ef934a893f0e3020980ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_352.obj using Guid(b5df691b8b8ef934a893f0e3020980ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56652d5abc9cda721a70209e37ca92a7') in 0.016754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_357.obj
+  artifactKey: Guid(88f21eb664779374eb08e32c120e3ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_357.obj using Guid(88f21eb664779374eb08e32c120e3ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db12dbbab192cb2133b7763e9b75b83') in 0.016771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_353.obj
+  artifactKey: Guid(5c9e59298d6a0334eac6a8e10a07dcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_353.obj using Guid(5c9e59298d6a0334eac6a8e10a07dcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a63987e5a01eb31f3bb01d8a2bccf20') in 0.018743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_298.obj
+  artifactKey: Guid(fe8003975370dbc43b3bfc0e8d03e2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_298.obj using Guid(fe8003975370dbc43b3bfc0e8d03e2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caa9959db197d42cc4e4c740854a50b2') in 0.018057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_294.obj
+  artifactKey: Guid(cc359c17b860e7a4a80884741f987e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_294.obj using Guid(cc359c17b860e7a4a80884741f987e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a8545a14a1fd7e13c65b1b641c5a0a') in 0.017777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_345.obj
+  artifactKey: Guid(ccdb57f13d7fad6408ce3ae0babbb11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_345.obj using Guid(ccdb57f13d7fad6408ce3ae0babbb11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f973bc08004659142a0502d4dbe4f28') in 0.018037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_339.obj
+  artifactKey: Guid(c3b4e9bcac332f64f9d171cb91e10910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_339.obj using Guid(c3b4e9bcac332f64f9d171cb91e10910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb63b0a7fa8b5607aa70639ec722d424') in 0.018852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_307.obj
+  artifactKey: Guid(4a14acfc86c225a48a390e7af9409640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_307.obj using Guid(4a14acfc86c225a48a390e7af9409640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9530f0b6a61e4cb647cd7863b377097') in 0.018753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_265.obj
+  artifactKey: Guid(019d7e19c61944345ae403aeeb901cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_265.obj using Guid(019d7e19c61944345ae403aeeb901cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8e417adfb7a11681f648056b41839c') in 0.019702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_295.obj
+  artifactKey: Guid(3c254ac2735a4304c918ae9ca7d4412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_295.obj using Guid(3c254ac2735a4304c918ae9ca7d4412e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aebceda44f465aa8c6b2868c22ecc0fd') in 0.019340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_312.obj
+  artifactKey: Guid(f0cb51eda02cb034bb09f7e41148489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_312.obj using Guid(f0cb51eda02cb034bb09f7e41148489a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceab97c52a034762628de80ebb05652b') in 0.020176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_266.obj
+  artifactKey: Guid(89d574793922d6a4181dbd195dfe1f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_266.obj using Guid(89d574793922d6a4181dbd195dfe1f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f5de871f04a71a141c31e70400e87e') in 0.016763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_222.obj
+  artifactKey: Guid(4bb72dcac8159c8469a0facb073abce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_222.obj using Guid(4bb72dcac8159c8469a0facb073abce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c10b99e4a14ed0c7bc01c78fc104db4') in 0.018980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_221.obj
+  artifactKey: Guid(c2d392d3f3f1dc943866b71c28dc3671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_221.obj using Guid(c2d392d3f3f1dc943866b71c28dc3671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b3263437bd16bc52a56ca972ea6b6f4') in 0.019680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_203.obj
+  artifactKey: Guid(e2f4b3860c7b6014a9aa3c8a5f6eb475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_203.obj using Guid(e2f4b3860c7b6014a9aa3c8a5f6eb475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17b5f90d5095a20b8a3171423c53a33') in 0.017572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_196.obj
+  artifactKey: Guid(1c8700464731fc749a2cfa570aa0ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_196.obj using Guid(1c8700464731fc749a2cfa570aa0ca37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81913d71ec1526b551f54eec4dbb6a6a') in 0.018749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_281.obj
+  artifactKey: Guid(748567aad179de04da4347929debf4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_281.obj using Guid(748567aad179de04da4347929debf4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406958b41d8ce9a3fdd6dd4d6ec3a2d1') in 0.019180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_152.obj
+  artifactKey: Guid(8fd1a61e21191a941ab4d3275acc5404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_152.obj using Guid(8fd1a61e21191a941ab4d3275acc5404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b8c9087440f0fd7acc9ca046907f8d2') in 0.019801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_261.obj
+  artifactKey: Guid(7b34129f9e6ff964eabecb1c09d1a868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_261.obj using Guid(7b34129f9e6ff964eabecb1c09d1a868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132e414cf0a208c3c6d4b42976848fa1') in 0.019185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_146.obj
+  artifactKey: Guid(ffa7c75127100624497f86b3e3734181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_146.obj using Guid(ffa7c75127100624497f86b3e3734181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d58441c9e3bb9d519232282938e15fc') in 0.018996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_355.obj
+  artifactKey: Guid(d5b41765b0a08ef43878e1fdbb7327fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_355.obj using Guid(d5b41765b0a08ef43878e1fdbb7327fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5416a2fe8badcf55b9002feee05ca8e8') in 0.018328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_259.obj
+  artifactKey: Guid(5334a0776490b4649bff8d1f8e89fc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_259.obj using Guid(5334a0776490b4649bff8d1f8e89fc8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f49c46855b0359d1751cce305b99cd3') in 0.018134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_242.obj
+  artifactKey: Guid(073365347676ef54d89ea50a4cef4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_242.obj using Guid(073365347676ef54d89ea50a4cef4d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34523b3077bedb1237a5491e4ebc568') in 0.017621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_232.obj
+  artifactKey: Guid(3ae466d112a61454d8dcf42c48e2b0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_232.obj using Guid(3ae466d112a61454d8dcf42c48e2b0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b798c9569ec04cea30ed16a483180b9a') in 0.017403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_308.obj
+  artifactKey: Guid(e1cfa9e90d181c34aacc58823eab9d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_308.obj using Guid(e1cfa9e90d181c34aacc58823eab9d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394679a4e4599afd82eba60b651cfd0c') in 0.016133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_301.obj
+  artifactKey: Guid(f1ba21f3acd716842934c833fb2f303b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_301.obj using Guid(f1ba21f3acd716842934c833fb2f303b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef6b1e704824f3cb950c329152ecd55') in 0.017991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_252.obj
+  artifactKey: Guid(9d53dc9b07f544346aee45291a4dd4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_252.obj using Guid(9d53dc9b07f544346aee45291a4dd4b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb310d640b77e412ad131fabf68cf4f7') in 0.018631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_316.obj
+  artifactKey: Guid(61367c17d12f2a24786069426f503b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_316.obj using Guid(61367c17d12f2a24786069426f503b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9888f4fdda26aa39e4bcaa7cbfac4fdd') in 0.019800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_128.obj
+  artifactKey: Guid(60af8a2b8505dc64c88869dc6583c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_128.obj using Guid(60af8a2b8505dc64c88869dc6583c73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3970a764eabba680df32fdf6fb1b53b6') in 0.021164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_167.obj
+  artifactKey: Guid(0469e44d6ee98f24890925540312743b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_167.obj using Guid(0469e44d6ee98f24890925540312743b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab027de70318b2442d2c0ff233b49a11') in 0.018888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_195.obj
+  artifactKey: Guid(3f2405d1ad092194aa1e19aa124ce744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_195.obj using Guid(3f2405d1ad092194aa1e19aa124ce744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ecb715bb36e0af6c95980d6f0e893bd') in 0.018786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_293.obj
+  artifactKey: Guid(9fc67eaf36c69ea4fa67a4b641ff4cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_293.obj using Guid(9fc67eaf36c69ea4fa67a4b641ff4cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '603a50c9eb8019c8b367c22a20fd346c') in 0.017926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_236.obj
+  artifactKey: Guid(31fb985ef6891f54588627af749af5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_236.obj using Guid(31fb985ef6891f54588627af749af5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158c2b0242f9b594533893b2f83292f6') in 0.018291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_185.obj
+  artifactKey: Guid(2ed9325489f5f33469cbe860ba415fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_185.obj using Guid(2ed9325489f5f33469cbe860ba415fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1c01884d52db9cad8258e04d88fb03') in 0.019866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_291.obj
+  artifactKey: Guid(c6a4cdc8e8a58fd4e8cb386469093895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_291.obj using Guid(c6a4cdc8e8a58fd4e8cb386469093895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6b7aa3ad8d663ce4d3a3ed56d90487') in 0.018561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_241.obj
+  artifactKey: Guid(78a878b35c29f7549969c92586c0ec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_241.obj using Guid(78a878b35c29f7549969c92586c0ec61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4f02cf27a11ac96a166c44e176c91e') in 0.016961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Board_Objects/ImportBoard/Motor_MetalFaces_176.obj
+  artifactKey: Guid(a8ebb74e84760f540823aae5b18b238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Board_Objects/ImportBoard/Motor_MetalFaces_176.obj using Guid(a8ebb74e84760f540823aae5b18b238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c1cdfb53136007a5ffe33f862bf82c') in 0.017748 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
