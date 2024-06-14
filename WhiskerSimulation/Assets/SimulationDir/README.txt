@@ -1,6 +1,5 @@
 // Whisker Simulation
 // 
-// PostBuildProcessor handles the placing of python scripts into the editor folder for builds
 // 6/14/2024
 // Authors: Joseph Black
 // For Use By UAH/MDA/NASA
